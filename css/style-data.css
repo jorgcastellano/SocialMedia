@@ -1,0 +1,118 @@
+header{
+background-image: url("../img/MENU.png") ;
+background-repeat: no-repeat;
+ position: relative;
+z-index: 1;
+    height: 70px;
+    margin-bottom:-10px;
+}
+nav{
+margin-top: 35px;
+margin-left: -80px;
+}
+#menu a{
+color: white;
+}
+#menu a:hover{
+color: #defb51;
+}
+#ima{
+	position: absolute;
+	margin-left: 50px;
+    margin-top: 10px;
+    height: 100px;
+}
+#ima4{
+	width: 490px;
+}
+.parrafo1{
+      padding-right: 50px;
+    text-align: justify;
+    padding-left: 60px;
+    margin-left: 90px;
+    margin-top: -90px;
+}
+#ima5{
+	margin-left: 400px;
+	margin-bottom: 100px;
+}
+#ima6{
+	width: 450px;
+	margin-left: 400px;
+	margin-bottom: 100px;
+}
+#ima7{
+	width: 350px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+}
+.parrafo2{
+
+      padding-right: 100px;
+    text-align: justify;
+    padding-left: 60px;
+    margin-left: 0px;
+
+
+}
+#parra{
+	background-image: url("../img/hispanos-caja-texto.png");
+	padding: 50px;
+	margin-left: 90px;
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+#ima8{
+	width: 450px;
+	margin-left:380px;
+}
+#prin{
+background-image:url("../img/background_1.png");
+}
+#ima1{
+margin-top: 110px;
+margin-left: 50px;
+width: 190px;
+margin-bottom: 90px;
+}
+#ima2{
+margin-top: 110px;
+width: 600px;
+    margin-left: 95px;
+}
+#arre{
+	padding-right: 250px;
+	text-align: justify;
+	padding-left: 100px;
+	margin-bottom: 100px;
+}
+#ima3{
+	width: 600px;
+}
+
+#enfasis{
+  color: #defb51;
+}
+.ali{
+  text-align: right;
+      padding-right: 50px;
+}
+footer{
+background-image: url("../img/footer.png");
+  background-repeat: no-repeat;
+    background-size: 1585px 445px;
+}
+#final{
+      padding-right: 200px;
+    text-align: justify;
+}
+#pie{
+    margin-bottom: 200px
+}
+#piee{
+  background-color: black;
+  text-align: center;
+      padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}

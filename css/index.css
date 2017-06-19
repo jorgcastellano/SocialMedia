@@ -1,0 +1,144 @@
+.header-content{
+  background-image: url("../img/background-1.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1000px;
+  background-position: bottom;
+}
+.degraded {
+  position: absolute;
+  background-image: url(../img/background-2.png);
+  background-position: top;
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat;
+  height: 300px;
+  width: 100%;
+  top: 800px;
+}
+#preparate .row {
+  background-color: #abaaad;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+#title img{
+  width: 100%;
+}
+#diagramIndex img{
+  margin-top: 60px;
+  width: 100%;
+}
+#contentText, #paragraph{
+  padding: 0 200px;
+}
+#bigYellow {
+  color: #defb51;
+  font-size: 30px;
+}
+#proyectoIntegral {
+  background-image: url("../img/background-3.png");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+}
+#piText{
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 100px;
+  width: 600px;
+}
+#piMen{
+  position: relative;
+  margin-left: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#listContent {
+  padding-right: 350px;
+  padding-left: 60px;
+}
+#trafico{
+	background-image: url("../img/background-4.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#trafficImg{
+  width: 800px;
+  margin-top: 100px;
+}
+#numbers{
+  height: 700px;
+  margin-top: 70px;
+}
+#numbers img {
+  position: absolute;
+  z-index: -1;
+}
+#numbers p {
+  color: white;
+}
+.textNumber{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+#number1 {
+  background-image: url("../img/num1.png");
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 400px;
+  margin: 0 auto;
+}
+#number2 {
+  background-image: url("../img/num2.png");
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 400px;
+  margin: 0 auto;
+}
+#number3 {
+  background-image: url("../img/num3.png");
+  background-repeat: no-repeat;
+  height: 550px;
+  width: 400px;
+  margin: 0 auto;
+}
+#masSocial{
+  background-image: url("../img/background-5.png");
+  background-size: cover;
+  background-position: center;
+}
+#masSocialWoman{
+  margin-top: -35px;
+  right: 200px;
+  position: absolute;
+  width: 40%;
+}
+#paragraph-1 {
+  padding: 200px 200px 200px;
+}
+#comprenderle{
+  background-image: url("../img/background-6.png");
+  background-size: cover;
+}
+#comprenderleImg img{
+  width: 40%;
+  position: absolute;
+  left: 200px;
+}
+#paragraph-2 {
+  padding: 50px 0 0;
+}
+#paragraph-3 {
+  padding: 400px 200px 200px;
+}
+@media (max-width: 1366px) {
+  .header-content{
+    padding-bottom: 750px;
+  }
+  .degraded {
+    top: 550px;
+  }
+}
