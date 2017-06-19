@@ -58,6 +58,13 @@
   #luego {
     background-position: -35px top;
   }
+  #espacio figure img {
+    margin-left: 50%;
+    width: 600px;
+  }
+  #diagramAdquision {
+    width: 80%;
+  }
 }
 
 

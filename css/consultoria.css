@@ -1,30 +1,13 @@
-header{
-background-image: url("../img/MENU.png") ;
-background-repeat: no-repeat;
- position: relative;
-z-index: 1;
-    height: 70px;
-    margin-bottom:-10px;
-}
-nav{
-margin-top: 35px;
-margin-left: -80px;
-}
-#menu a{
-color: white;
-}
-#menu a:hover{
-color: #defb51;
-}
-#ima{
-	position: absolute;
-	margin-left: 50px;
-    margin-top: 10px;
-    height: 100px;
-}
-#ima2{
 
-	width: 550px;
+#content {
+  background-image:url("../img/background1.png");
+  padding-top: 150px
+}
+#sectionOne {
+  margin-bottom: 90px;
+}
+#paragraph {
+  padding: 160px 0px 0 40px;
 }
 #ima3{
     width: 1050px;
@@ -34,18 +17,20 @@ color: #defb51;
     height: 260px;
     margin-right: 0px
 }
-.espa1{
-	margin-top: 90px;
-}
-#arre0{
-	    margin-bottom: 90px;
-}
-#arre1{
-	    padding-left: 180px;
-    padding-right: 0px;
-    text-align: justify;
-    margin-top: 300px;
-    align-items: initial;
+
+
+
+
+
+
+
+
+
+#ima{
+	position: absolute;
+	margin-left: 50px;
+    margin-top: 10px;
+    height: 100px;
 }
 #ima4{
 	width: 600px;
@@ -67,12 +52,6 @@ color: #defb51;
     margin-left: 0px;
 
 
-}
-#ima5{
-	 width: 600px ;
-    height: 600px;
-    margin-top: 20px;
-    margin-bottom: 50px
 }
 #ima6{
 	width: 600px;
@@ -123,9 +102,6 @@ color: #defb51;
 #parra{
 	background-image: url("../img/cuadro-texto-background3.png");
 }
-#prin{
-background-image:url("../img/background1.png");
-}
 #sec{
 background-image:url("../img/background_3.png");
 }
@@ -150,23 +126,4 @@ background-image:url("../img/consultoria4.png");
 .ali{
   text-align: right;
       padding-right: 50px;
-}
-footer{
-background-image: url("../img/footer.png");
-  background-repeat: no-repeat;
-    background-size: 1585px 445px;
-}
-#final{
-      padding-right: 200px;
-    text-align: justify;
-}
-#pie{
-    margin-bottom: 200px
-}
-#piee{
-  background-color: black;
-  text-align: center;
-      padding-top: 20px;
-    padding-bottom: 20px;
-    color: white;
 }
