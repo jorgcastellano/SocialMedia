@@ -30,10 +30,6 @@
 #contentText, #paragraph{
   padding: 0 200px;
 }
-#bigYellow {
-  color: #defb51;
-  font-size: 30px;
-}
 #proyectoIntegral {
   background-image: url("../img/background-3.png");
   background-size: cover;
@@ -55,11 +51,6 @@
 #listContent {
   padding-right: 350px;
   padding-left: 60px;
-}
-#trafico{
-	background-image: url("../img/background-4.png");
-  background-repeat: no-repeat;
-  background-position: top center;
 }
 #trafficImg{
   width: 800px;

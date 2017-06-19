@@ -1,6 +1,11 @@
+@@font-face {
+  font-family: Varela Round;
+  src: url(../font/VarelaRound-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
+  font-family: Varela Round;
 }
 header{
   background-color: #42337d;
@@ -15,6 +20,7 @@ header .list-inline {
 }
 p, dd, dt {
   font-size: 18px;
+  font-family: Varela Round;
 }
 dt {
   margin-top: 15px;
@@ -44,6 +50,10 @@ footer{
 .enfasis{
   color: #defb51;
 }
+.title {
+  font-size: 50px;
+  padding: 100px 0;
+}
 #menu a{
   color: white;
 }
@@ -58,6 +68,21 @@ footer{
 }
 #logo-menu img {
   width: 100%;
+}
+#trafico{
+	background-image: url("../img/background-4.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.paddingTop100 {
+  padding-top: 100px;
+}
+.padding200px {
+  padding: 60px 200px;
+}
+.bigYellow {
+  color: #defb51;
+  font-size: 40px;
 }
 #column2Footer {
   padding: 60px 100px 60px 40px;
