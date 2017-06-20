@@ -1,13 +1,14 @@
 
 #content {
   background-image:url("../img/background1.png");
-  padding-top: 150px
+  padding-top: 150px;
+  padding-bottom: 200px;
 }
 #sectionOne {
   margin-bottom: 90px;
 }
 #paragraph {
-  padding: 160px 0px 0 40px;
+  padding: 240px 0px 0 150px;
 }
 #ima3{
     width: 1050px;
@@ -17,113 +18,62 @@
     height: 260px;
     margin-right: 0px
 }
-
-
-
-
-
-
-
-
-
-#ima{
-	position: absolute;
-	margin-left: 50px;
-    margin-top: 10px;
-    height: 100px;
+#cableConnect img {
+  width: 60%;
+  position: absolute;
+  top: 300px;
+  left: 400px;
 }
-#ima4{
+#marginTop {
+  margin-top: 150px;
+  padding-right: 100px;
+}
+#secondSection {
+  padding-top: 400px;
+}
+#nuveConsulta{
 	width: 600px;
-	padding-left: 100px;
-}
-.parrafo1{
-      padding-right: 50px;
-    text-align: justify;
-    padding-left: 60px;
-    margin-left: 150px;
-
-
-}
-.parrafo2{
-
-      padding-right: 100px;
-    text-align: justify;
-    padding-left: 60px;
-    margin-left: 0px;
-
-
-}
-#ima6{
-	width: 600px;
-	margin-left: 200px;
-	margin-bottom: 100px;
-}
-#ima7{
-	margin-left: 200px;
-	margin-bottom: 100px;
-}
-#sub{
-	 margin-top: -90px;
-}
-#peque{
-	    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 35px;
-    margin-top: 90px;
-    text-align: justify;
-}
-#peque2{
-	    padding-left: 20px;
-    padding-right: 90px;
-    margin-bottom: 35px;
-    margin-top: 30px;
-    text-align: justify;
-}
-#peque3{
-	    padding-left: 30px;
-    padding-right: 90px;
-    margin-bottom: 35px;
-    margin-top: 30px;
-    text-align: justify;
-}
-#peque4{
-	    padding-left: 30px;
-    padding-right: 90px;
-    margin-bottom: 35px;
-    margin-top: 30px;
-    text-align: justify;
-}
-#ima8{
-	margin-top: 90px;
-	width: 500px;
-	margin-left: 700px;
-	margin-bottom: 50px;
-}
-#parra{
-	background-image: url("../img/cuadro-texto-background3.png");
-}
-#sec{
-background-image:url("../img/background_3.png");
+  padding-bottom: 125px;
 }
 #uno{
-background-image:url("../img/consultoria1.png");
-background-size: cover;
+  background-image:url("../img/consultoria1.png");
 }
 #dos{
-background-image:url("../img/consultoria2.png");
-background-size: cover;
+  background-image:url("../img/consultoria2.png");
 }
 #tres{
-background-image:url("../img/consultoria3.png");
-background-size: cover;
+  background-image:url("../img/consultoria3.png");
 }
 #cuatro{
-background-image:url("../img/consultoria4.png");
+  background-image:url("../img/consultoria4.png");
 }
-#enfasis{
-  color: #defb51;
+#boxText {
+  position: absolute;
+  top: 35%;
+  padding: 30px;
 }
-.ali{
-  text-align: right;
-      padding-right: 50px;
+#uno, #dos, #tres, #cuatro {
+  background-repeat: no-repeat;
+}
+#uno:before, #dos:before, #tres:before, #cuatro:before {
+  content:"";
+  display:block;
+  padding-top:100%;
+}
+#verdaderaConsultoria {
+	margin-top: 90px;
+	width: 500px;
+  margin-bottom: 25px;
+}
+#backgroundParagraph {
+  background-color: rgba(153, 170, 178, .8);
+  padding: 30px;
+}
+#sec {
+  background-image:url("../img/background_3.png");
+  background-position: bottom center;
+}
+#ima4 {
+	width: 600px;
+	padding-left: 100px;
 }

@@ -1,4 +1,4 @@
-@@font-face {
+@font-face {
   font-family: Varela Round;
   src: url(../font/VarelaRound-Regular.ttf);
 }
@@ -87,11 +87,14 @@ footer{
   padding: 60px 200px;
 }
 .padding0 {
-  padding: 0;
+  padding: 0 !important;
 }
 .bigYellow {
   color: #defb51;
   font-size: 40px;
+}
+.space50px {
+  padding: 50px;
 }
 #column2Footer {
   padding: 60px 100px 60px 40px;
