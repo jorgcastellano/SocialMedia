@@ -56,7 +56,7 @@
 }
 @media (max-width: 1366px) {
   #luego {
-    background-position: -35px top;
+    background-position: -19px -19px;
   }
   #espacio figure img {
     margin-left: 50%;

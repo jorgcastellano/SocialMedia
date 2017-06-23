@@ -40,6 +40,7 @@
 }
 #uno, #dos, #tres, #cuatro {
   background-repeat: no-repeat;
+  background-position: top right;
 }
 #uno:before, #dos:before, #tres:before, #cuatro:before {
   content:"";
@@ -58,4 +59,25 @@
 #sec {
   background-image:url("../img/background_3.png");
   background-position: bottom center;
+}
+@media (max-width: 1366px) {
+  #secondSection {
+    padding-top: 290px;
+  }
+  #nuveConsulta {
+    width: 600px;
+    padding-bottom: 75px;
+  }
+  #secondSection {
+    padding-top: 300px;
+  }
+  #nuveConsulta {
+    width: 600px;
+    padding-bottom: 75px;
+  }
+  #boxText {
+    position: absolute;
+    top: 40%;
+    padding: 0 10px 0 0;
+  }
 }
