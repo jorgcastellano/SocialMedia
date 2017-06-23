@@ -89,12 +89,18 @@ footer{
 .padding0 {
   padding: 0 !important;
 }
+.padding30px {
+  padding-top: 30px;
+}
 .bigYellow {
   color: #defb51;
   font-size: 40px;
 }
 .space50px {
   padding: 50px;
+}
+.space75px {
+  padding: 75px;
 }
 #column2Footer {
   padding: 60px 100px 60px 40px;
@@ -112,7 +118,23 @@ footer{
     padding: 40px 60px;
   }
 }
-
+#content {
+  background-image:url("../img/background1.png");
+  padding-top: 150px;
+  padding-bottom: 195px;
+}
+#ima4 {
+	width: 600px;
+	padding-left: 100px;
+}
+#marginTop {
+  margin-top: 150px;
+  padding-right: 100px;
+}
+#nuveConsulta{
+	width: 600px;
+  padding-bottom: 125px;
+}
 
 
 
