@@ -60,6 +60,27 @@
   background-image:url("../img/background_3.png");
   background-position: bottom center;
 }
+@media (max-width: 1366px) {
+  #secondSection {
+    padding-top: 290px;
+  }
+  #nuveConsulta {
+    width: 600px;
+    padding-bottom: 75px;
+  }
+  #secondSection {
+    padding-top: 300px;
+  }
+  #nuveConsulta {
+    width: 600px;
+    padding-bottom: 75px;
+  }
+  #boxText {
+    position: absolute;
+    top: 40%;
+    padding: 0 10px 0 0;
+  }
+}
 @media (max-width: 767px) {
   #cableConnect, #imgQueEs, #secondSection figure.text-center img {
     display: none;
@@ -71,7 +92,7 @@
   }
   #content {
     padding-top: 0;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   #ima4 {
     width: 100%;
@@ -105,25 +126,7 @@
   #boxText {
     font-size: 16px;
   }
-}
-@media (max-width: 1366px) {
   #secondSection {
-    padding-top: 290px;
-  }
-  #nuveConsulta {
-    width: 600px;
-    padding-bottom: 75px;
-  }
-  #secondSection {
-    padding-top: 300px;
-  }
-  #nuveConsulta {
-    width: 600px;
-    padding-bottom: 75px;
-  }
-  #boxText {
-    position: absolute;
-    top: 40%;
-    padding: 0 10px 0 0;
+    padding-top: 50px;
   }
 }

@@ -139,6 +139,9 @@ footer .row{
 	width: 600px;
   padding-bottom: 125px;
 }
+#logoPie {
+  display: none;
+}
 @media (max-width: 767px) {
   #menu {
     padding: 15px 0 15px;
@@ -199,12 +202,18 @@ footer .row{
     font-size: 18px;
     margin-top: 0;
   }
-  footer {
+  footer .row{
+    min-height: auto;
     background-color: #3c2878;
     background-image: none;
   }
-  footer .row{
-    min-height: auto;
+  #logoPie {
+    display: block;
+    width: 100%;
+  }
+  #logoPie img {
+    margin: 0 auto;
+    width: 150px;
   }
   #piText {
     position: absolute !important;
