@@ -31,9 +31,13 @@ dt {
 dd {
   margin-bottom: 15px;
 }
-footer{
+footer .row{
   background-image: url("../img/footer.png");
   background-repeat: no-repeat;
+  background-position: bottom center;
+  min-height: 350px;
+}
+
 }
 .textBlue {
   color: #34266f;
@@ -189,6 +193,9 @@ footer{
   footer {
     background-color: #3c2878;
     background-image: none;
+  }
+  footer .row{
+    min-height: auto;
   }
 }
 @media (min-width: 768px) {
