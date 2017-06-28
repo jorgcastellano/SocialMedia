@@ -116,14 +116,19 @@
   #parrafo {
     background-color: rgba(255, 0, 0, 0);
     padding: 0;
+    margin-bottom: 10px !important;
   }
   #dineroImg {
     width: 40%;
   }
   #content {
     padding-bottom: 50px;
-    background-position: bottom right;
     background-repeat: no-repeat;
+    padding-bottom: 20px !important;
+    background-color: #a8b7bf;
+  }
+  footer .row {
+    background-image: none;
   }
 }
 @media (max-width: 1680px) {

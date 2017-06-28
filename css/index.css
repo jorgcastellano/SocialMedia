@@ -33,18 +33,18 @@
 #proyectoIntegral {
   background-image: url("../img/background-3.png");
   background-size: cover;
-  background-position: center;
+  background-position: right 0;
   padding-bottom: 20px;
 }
 #piText{
   position: absolute;
   margin-top: -30px;
-  margin-left: 100px;
+  margin-left: 200px;
   width: 600px;
 }
 #piMen{
   position: relative;
-  margin-left: 700px;
+  margin-left: 800px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -99,7 +99,7 @@
 #masSocial{
   background-image: url("../img/background-5.png");
   background-size: cover;
-  background-position: bottom center;
+  background-position: right top;
 }
 #masSocialWoman{
   margin-top: -35px;
@@ -108,7 +108,7 @@
   width: 40%;
 }
 #paragraph-1 {
-  padding: 200px 200px 200px;
+  padding: 150px 200px 100px 100px;
 }
 #comprenderle{
   background-color: rgb(168, 183, 191);
@@ -143,6 +143,14 @@
   padding-top: 143px;
   margin-left: 75px;
 }
+@media (max-width: 1920px) {
+  #proyectoIntegral {
+    background-position: right;
+  }
+  #piMen {
+    margin-left: 900px !important;
+  }
+}
 @media (max-width: 1366px) {
   .header-content{
     padding-bottom: 750px;
@@ -170,5 +178,47 @@
     right: 30px;
     margin-top: 25px;
     width: 180px;
+  }
+  #paragraph-1 {
+    padding: 100px 200px 100px 100px;
+  }
+  #proyectoIntegral {
+    background-position: center !important;
+  }
+  #piText {
+    margin-left: 100px !important;
+  }
+  #piMen {
+    margin-left: 700px !important;
+  }
+}
+@media (max-width: 767px) {
+  #masSocial{
+    background-position: right bottom !important;
+  }
+  #number1, #number2, #number3 {
+    background-size: contain;
+    width: 100% !important;
+    height: 350px;
+  }
+  .textNumber {
+    width: 100% !important;
+    height: 300px !important;
+    padding: 0 15px;
+    padding: 20px 15px 0;
+    font-size: 16px;
+  }
+  #paragraph-1 {
+    padding: 0 0px 0 20px !important;
+  }
+  #number1, #number3 {
+    background-image: url("../img/circulito.png");
+  }
+  #number2 {
+    background-image: url("../img/circulito2.png");
+  }
+  #numbers {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
