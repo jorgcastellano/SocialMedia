@@ -60,6 +60,45 @@
   background-image:url("../img/background_3.png");
   background-position: bottom center;
 }
+@media (max-width: 767px) {
+  #cableConnect, #imgQueEs, #secondSection figure.text-center img {
+    display: none;
+  }
+    .titleImg img {
+      width: 100%;
+      margin-top: 80px;
+      margin-bottom: 50px;
+  }
+  #content {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+  #ima4 {
+    width: 100%;
+    padding-left: 0;
+  }
+  .space50px {
+    padding: 0;
+  }
+  #sectionOne {
+    margin-bottom: 10px;
+  }
+  #marginTop {
+      margin-top: -100px;
+      padding-left: 85px;
+      padding-right: 20px;
+  }
+  #nuveConsulta {
+    display: block !important;
+    width: 100% !important;
+    padding-bottom: 15px !important;
+  }
+  #verdaderaConsultoria {
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
 @media (max-width: 1366px) {
   #secondSection {
     padding-top: 290px;

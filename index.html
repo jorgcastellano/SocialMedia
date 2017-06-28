@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Home - Social Media</title>
-		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="./bootstrap/js/bootstrap.js">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="./css/style.css">
 		<link rel="stylesheet" href="./css/index.css">
 	</head>
 	<body>
 		<div class="containter-fluid">
-			<header>
-				<div class="row">
-					<div class="col-sm-3">
-						<figure id="logo-menu">
-							<img src="./img/logo-menu.png">
-						</figure>
-					</div>
-					<div class="col-sm-9">
-						<div id="navbar" class="top-navbar">
-							<nav id="menu">
-								<ul class="list-inline">
-							    <li class="active"><a title="Opcion 1" href="index.html">Home</a></li>
-							    <li><a title="Opcion 2" href="adquisicion.html">Adquisición de Tráfico</a></li>
-							    <li><a title="Opcion 3" href="consultoria.html">Consultoria</a></li>
-							    <li><a title="Opcion 4" href="data.html">Enriquecimiento de data </a></li>
-							    <li><a title="Opcion 5" href="#">Contacto</a></li>
-								</ul>
-							</nav>
-						</div>
-					</div>
+
+			<nav id="menu" class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Desplegar navegación</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button><!-- Logo Image -->
+					<figure id="logo-menu">
+						<img src="./img/logo-menu.png">
+					</figure>
 				</div>
-			</header>
+				<div id="menuElements" class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="adquisicion.html">Adquisición de Tráfico</a></li>
+						<li><a href="consultoria.html">Consultoria</a></li>
+						<li><a href="data.html">Enriquecimiento de data </a></li>
+						<!-- <li><a title="Opcion 5" href="#">Contacto</a></li> -->
+					</ul>
+				</div>
+			</nav>
+
 			<section class="header-content"></section>
 			<div class="degraded"></div>
 			<section id="preparate">
@@ -74,7 +77,7 @@
 				<div class="row">
 					<div class="col-sm-2"></div>
 					<div class="col-sm-8">
-						<p id="paragraph-2" class="textBlue">Los últimos estudios de marketing han determinado que al fin, la era de las campañas convencionales donde se forjan los procesos de compra y acción para con un servicio, han quedado atrás.
+						<p id="paragraph-2" class="textBlue text-justify">Los últimos estudios de marketing han determinado que al fin, la era de las campañas convencionales donde se forjan los procesos de compra y acción para con un servicio, han quedado atrás.
 						Hoy día el escuchar lo que tiene que decir tu público, como se manifiesta y de qué manera. Inclusive, el cómo piensa, es un punto clave para acertar en la data que nos permite seleccionar la audiencia correcta que te permite cumplir los siguientes objetivos:</p>
 					</div>
 				</div>
@@ -141,11 +144,7 @@
 					<div class="col-sm-6 textWhite" id="column2Footer">
 						<h3>Oficina Principal</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						tempor incididunt ut labore et dolore magna aliqua.</p>
 						<p>Teléfono <span class="enfasis">+567894561</span></p>
 						<p class="text-right enfasis" >Email: lorem@ipsum.com</p>
 					</div>
@@ -157,5 +156,9 @@
 				</div>
 			</footer>
 		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>
 </html>
