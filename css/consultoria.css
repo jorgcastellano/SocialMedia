@@ -129,4 +129,9 @@
   #secondSection {
     padding-top: 50px;
   }
+  #banderinesImgs img:first-child { display: none; }
+  #banderinesImgs img:last-child {
+    display: block !important;
+    margin: 0 auto;
+  }
 }

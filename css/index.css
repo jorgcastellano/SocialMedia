@@ -221,4 +221,24 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  #piText {
+    margin-top: -10px !important;
+    margin-left: 0 !important;
+    width: 80% !important;
+  }
+  #piMen {
+    position: absolute !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 20% !important;
+    right: 0 !important;
+  }
+  #bombilla img:first-child { display: none; }
+  #bombilla img:last-child {
+    display: block !important;
+    right: 0% !important;
+    width: 20% !important;
+    margin-top: 300px !important;
+  }
 }

@@ -189,11 +189,6 @@ footer .row{
   #ele, #people, #diagramIndex img {
     display: none;
   }
-  #bombilla img {
-    right: -30% !important;
-    width: 50% !important;
-    margin-top: 300px !important;
-  }
   #column2Footer {
         padding: 20px !important;
   }
@@ -214,20 +209,6 @@ footer .row{
   #logoPie img {
     margin: 0 auto;
     width: 150px;
-  }
-  #piText {
-    position: absolute !important;
-    margin-top: -10px !important;
-    margin-left: 0 !important;
-    width: 80% !important;
-  }
-  #piMen {
-    position: absolute !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    width: 20% !important;
-    right: 0 !important;
   }
   #preparate .row {
     padding-bottom: 50px !important;
